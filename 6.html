@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>css table</title>
+        <style>
+            body{
+    padding:0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width:800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+tr{
+    transition: all.2s ease-in;
+    cursor:pointer;
+}
+th,tr{
+    padding:12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#header{
+    background-color: #16ae85;
+    color:#fff;
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+    background-color: #16ae85;
+    color: #fff;
+    padding:10px 0px;
+}
+tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(241, 7, 7, 0.866),-1px -1px 8px rgba(2, 80, 139, 0.2);
+
+}
+tr:nth-child(odd){
+    background-color: silver;
+}
+     </style>
+        
+    </header>
+    <body>
+        <table>
+            <tr id="header">
+                <th>Date</th>
+                <th>Order ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>2017-09-29 01:22</td>
+                <td>200398</td>
+                <td>iphone x64gb grey</td>
+                <td>$999.00</td>
+                <td>1</td>
+                <td>$999.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-28 05:57</td>
+                <td>200397</td>
+                <td>samsung s8 black</td>
+                <td>$756.00</td>
+                <td>1</td>
+                <td>$756.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-26 05:57</td>
+                <td>200396</td>
+                <td>game console controller</td>
+                <td>$22.00</td>
+                <td>2</td>
+                <td>44.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-25 23:06</td>
+                <td>200392</td>
+                <td>usb 3.0 cable</td>
+                <td>$10.00</td>
+                <td>3</td>
+                <td>$30.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-24 05:57</td>
+                <td>200391</td>
+                <td>smartwatch 4.0 LTE wifi</td>
+                <td>$199.00</td>
+                <td>6</td>
+                <td>$1494.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-23 05:57</td>
+                <td>200390</td>
+                <td>camera C430W 4K</td>
+                <td>$699.00</td>
+                <td>1</td>
+                <td>$699.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-22 05:57</td>
+                <td>200389</td>
+                <td>Macbook pro retine 2017</td>
+                <td>$2199.00</td>
+                <td>1</td>
+                <td>$2199.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-21 05.57</td>
+                <td>200388</td>
+                <td>game console controller</td>
+                <td>$999.00</td>
+                <td>1</td>
+                <td>$999.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-19 05:57</td>
+                <td>200387</td>
+                <td>iphone x 64gb grey</td>
+                <td>$999.00</td>
+                <td>1</td>
+                <td>$999.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-18 05:57</td>
+                <td>200386</td>
+                <td>marbook pro retine 2017</td>
+                <td>$2199.00</td>
+                <td>1</td>
+                <td>$2199.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-21 05:57</td>
+                <td>200388</td>
+                <td>game console controller </td>
+                <td>$999.00</td>
+                <td>1</td>
+                <td>$999.00</td>
+            </tr>
+            <tr>
+                <td>2017-09-19 05:57</td>
+                <td>200387</td>
+                <td>iphone x64gb grey</td>
+                <td>$999.00</td>
+                <td>1</td>
+                <td>$999.00</td>
+            </tr>
+
+
+
+
+        </table>
+    </body>
+</html>
